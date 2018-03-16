@@ -52,28 +52,27 @@
   
    <body>
    <header role="presentation">
-       <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-center">
-           <a class="navbar-brand" href="#"><img class="small" src="images/Logo_FINAL_2D_BAtICo.png"> </a>
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-center navbar-toggleable-md">
+           <div class="container">
+
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
            </button>
+               <h3 class="text-left">BATICO</h3>
+               <a class="navbar-brand" href="home.html"> <img class="small" src="images/Logo_FINAL_2D_BAtICo.png"> </a>
 
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav">
-                   <li class="nav-item active text-left">
-                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                   <li class="nav-item active mr-auto">
+                       <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
                    </li>
-
-
+                   <li  class="nav-item">
+                       <a class="nav-link" href="plan_salle.html">Plan de la salle</a></li>
                </ul>
-
-
-
            </div>
-           <h3 class="text-center">BATICO</h3>
-
+           </div>
        </nav>
-
    </header>
 
          
@@ -97,22 +96,18 @@
                   </section>
                   <section class="col-md-8">
                       <section class="row">
-                          <section class="col-md-6">
+                          <section class="col-md-12">
                               <h3>Light</h3>
-                              <div class="holds-iframe">
-                                  <img id="loader1" src="images/loader.gif" alt="loading gif"/>
-                              <iframe id="iframe1"
-                                      src="https://www.youtube.com/embed/Rn6I584YNk8?rel=0&amp;controls=0&amp;showinfo=0">
-                              </iframe>
-                              </div>
+
                           </section>
-                          <section class="col-md-6">
+
+                          <section class="col-md-12">
 
                               <h3>Volet</h3>
                               <div class="row">
 
-                                  <div class="col-md-2 col-xs-4 col-sm-3 col-md-2">
-                                      <img class="img-thumbnail" id="volet" src="images/volet.png" alt="volet"/>
+                                  <div class="">
+                                      <img  id="" class="img-thumbnail" src="images/volet.png" alt="volet"/>
                                   </div>
                                   <div class="col-md-5">
                                       <h5>Volet n°1</h5>
@@ -179,22 +174,25 @@
 
                           </section>
 
-                              <section class="col-md-12">
+                          <section class="col-md-12">
 
                                   <h3>Température</h3>
                                       <div class="row">
+                                          <div class="">
+                                              <img   class="img-thumbnail" src="images/temperatur.png" alt="temp"/>
+                                          </div>
 
-
-                                      <div class="col-md-6">
+                                      <div class="col-md-5">
                                           <h4>Température Interieur</h4>
 
                                       </div>
-                                      <div class="col-md-6">
+                                      <div class="col-md-5">
                                           <h4>Température extérieur</h4>
 
                                       </div>
                                   </div>
                           </section>
+
                       </section>
 
 
@@ -205,16 +203,52 @@
         </div>
 
     </main>
-    <footer class="footer">
+
+    <footer class=" bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <span class="text-muted">Place sticky footer content here.</span>
+
+                <div class=" col-2 image_footer">
+
+                    <img class="rounded" src="images/logo_polytech.jpg">
+                </div>
+                    <div class="col-8   image_footer">
+                        <div class="text-center">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Contact</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                        <p>
+                            <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p>
+                            <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    </div>
+                <div class="col-2 image_footer">
+                    <img class="rounded" src="images/logo_usmb.jpg">
+                </div>
+
                 </div>
 
         </div>
+
+
+            <div class="footer-copyright py-3 text-center">
+                © 2018 BATICO:
+
+            </div>
+            <!--/.Copyright-->
+
         </div>
     </footer>
+
+
+
+
 
    </body>
 <script>
